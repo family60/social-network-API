@@ -12,7 +12,7 @@ const userController = {
     },
   
     //Get single user by id (GET)
-    getSingleUser(req, res) {
+    getUser(req, res) {
       User.findOne({ _id: req.params.userId }).select("-__v").populate("friends").populate("thoughts").then((userData) => {
           if (!userData) {
             return res.status(404).json({ message: "There is no user with this id" });
