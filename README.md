@@ -1,5 +1,5 @@
 # social-network-API
-API for a simple social network web app that in theory would be used to allow users to share their thoughts and add their friends to react to their thoughts as well.
+API for a simple social network web app that in theory would be used to allow users to share their thoughts and add their friends to react to their thoughts as well. This application uses Javascript, Node.js, Express.js, MongoDB, Mongoose, and Postman.
 
 ## Installation
 1. Clone repo to local machine
